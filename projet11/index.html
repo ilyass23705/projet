@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Management System - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📦 Stock Management System</h1>
+        </header>
+
+        <nav class="main-nav">
+            <a href="index.html" class="nav-link active">Home</a>
+            <a href="dashboard.html" class="nav-link">📊 Dashboard</a>
+            <a href="add-delete.html" class="nav-link">➕ Add & Delete</a>
+            <a href="modify.html" class="nav-link">✏️ Modify</a>
+            <a href="#" onclick="logout(); " class="nav-link logout-link">🚪 Logout</a>
+            <script>function logout() {
+  window.location.href = "login.html";
+}</script>
+        </nav>
+
+        <section class="welcome-section">
+            <h2>Welcome to Stock Management System</h2>
+            <p>Navigate to different sections using the menu above:</p>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <h3>📊 Dashboard</h3>
+                    <p>View all your stock items in a table format with statistics</p>
+                    <a href="dashboard.html" class="btn btn-primary">Go to Dashboard</a>
+                </div>
+                <div class="feature-card">
+                    <h3>➕ Add & Delete</h3>
+                    <p>Add new stock items or delete existing ones</p>
+                    <a href="add-delete.html" class="btn btn-primary">Go to Add & Delete</a>
+                </div>
+                <div class="feature-card">
+                    <h3>✏️ Modify</h3>
+                    <p>Update existing stock item information</p>
+                    <a href="modify.html" class="btn btn-primary">Go to Modify</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="auth.js"></script>
+</body>

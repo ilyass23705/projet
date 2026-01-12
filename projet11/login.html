@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Member Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+
+    
+</head>
+<body>
+
+<div class="container">
+    <div class="left">
+        <div class="circle">
+            <img src="img-01.png" alt="User">
+        </div>
+    </div>
+
+    <div class="right">
+        <h2>Member Login</h2>
+
+        <div class="input-group">
+            <input type="email" id="email" placeholder="Email">
+        </div>
+
+        <div class="input-group">
+            <input type="password" id="password" placeholder="Password">
+        </div>
+
+        <button class="login-btn" onclick="login()" >LOGIN</button>
+
+<script>
+function login() {
+  window.location.href = "dashboard.html";
+}
+</script>
+
+        <div class="links">
+            <a href="#">Forgot Username / Password?</a>
+        </div>
+
+        <div class="create">
+            Create your Account →
+            <a href="#">Sign up</a>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+* {
+            box-sizing: border-box;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #6a5af9, #d66efd);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: #fff;
+            width: 900px;
+            max-width: 95%;
+            border-radius: 20px;
+            display: flex;
+            padding: 40px;
+            gap: 40px;
+        }
+
+        /* Left side */
+        .left {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circle {
+            width: 260px;
+            height: 260px;
+            background: #f2f2f2;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circle img {
+            width: 120px;
+            opacity: 0.7;
+        }
+
+        /* Right side */
+        .right {
+            flex: 1;
+        }
+
+        h2 {
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 14px 16px;
+            border-radius: 30px;
+            border: none;
+            background: #eee;
+            outline: none;
+            font-size: 15px;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 14px;
+            border-radius: 30px;
+            border: none;
+            background: #5cb85c;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-btn:hover {
+            background: #4cae4c;
+        }
+
+        .links {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .links a {
+            color: #777;
+            text-decoration: none;
+        }
+
+        .create {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .create a {
+            color: #333;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+        }

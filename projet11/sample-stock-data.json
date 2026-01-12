@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1704456000000",
+    "name": "Laptop Computer",
+    "quantity": 15,
+    "price": 899.99,
+    "category": "Electronics"
+  },
+  {
+    "id": "1704456100000",
+    "name": "Wireless Mouse",
+    "quantity": 50,
+    "price": 29.99,
+    "category": "Electronics"
+  },
+  {
+    "id": "1704456200000",
+    "name": "Office Chair",
+    "quantity": 25,
+    "price": 199.99,
+    "category": "Furniture"
+  },
+  {
+    "id": "1704456300000",
+    "name": "Desk Lamp",
+    "quantity": 30,
+    "price": 45.50,
+    "category": "Furniture"
+  },
+  {
+    "id": "1704456400000",
+    "name": "Notebook Set",
+    "quantity": 100,
+    "price": 12.99,
+    "category": "Office Supplies"
+  },
+  {
+    "id": "1704456500000",
+    "name": "Pen Set",
+    "quantity": 75,
+    "price": 8.50,
+    "category": "Office Supplies"
+  },
+  {
+    "id": "1704456600000",
+    "name": "Printer Paper",
+    "quantity": 200,
+    "price": 24.99,
+    "category": "Office Supplies"
+  },
+  {
+    "id": "1704456700000",
+    "name": "USB Flash Drive",
+    "quantity": 40,
+    "price": 15.99,
+    "category": "Electronics"
+  },
+  {
+    "id": "1704456800000",
+    "name": "Monitor Stand",
+    "quantity": 20,
+    "price": 35.00,
+    "category": "Furniture"
+  },
+  {
+    "id": "1704456900000",
+    "name": "Keyboard",
+    "quantity": 35,
+    "price": 79.99,
+    "category": "Electronics"
+  }
+]
